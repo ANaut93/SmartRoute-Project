@@ -1,0 +1,140 @@
+body {
+  padding-top: 2rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to bottom, #eef1f5, #ffffff);
+}
+
+.masthead h3 {
+  color: #0056b3; 
+  font-weight: 600 !important;
+  border-bottom: 2px solid #007bff;
+  padding-bottom: 0.5rem;
+}
+
+
+.card {
+  border: 1px solid #e9ecef;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.08);
+  border-radius: 0.75rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+  color: #0056b3;
+}
+
+
+.btn {
+  border-radius: 0.4rem;
+  font-weight: 600;
+  transition: all 0.2s ease;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.btn-success {
+  background-image: linear-gradient(to right, #28a745, #218838);
+  border-color: #1e7e34;
+}
+
+.btn-danger {
+  background-image: linear-gradient(to right, #dc3545, #c82333);
+  border-color: #bd2130;
+}
+
+.btn-primary {
+  background-image: linear-gradient(to right, #007bff, #0069d9);
+  border-color: #0062cc;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+
+.svgmap { 
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+
+circle { 
+  fill: #007bff; 
+  stroke: #ffffff; 
+  stroke-width: 2.5;
+  cursor: pointer;
+  transition: transform 0.2s ease; 
+}
+
+circle:hover {
+  transform: scale(1.2); 
+}
+
+.label { 
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  fill: #ffffff;
+  stroke: none;
+  pointer-events: none; 
+}
+
+
+line { 
+  stroke: #343a40; 
+  stroke-dasharray: 4, 4;
+  stroke-width: 3;
+}
+
+
+line.shortest { 
+  stroke: #ff00ff;
+  stroke-width: 8;
+  stroke-dasharray: none; 
+  opacity: 0.8;
+  filter: drop-shadow(0 0 3px #ff00ff); 
+}
+
+.line-label { 
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  fill: #000000;
+  stroke: white;
+  stroke-width: 0.5px;
+  paint-order: stroke;
+}
+
+.footer {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin-top: 40px;
+  border-top: 1px solid #eee;
+}
+
+
+
+#results-text .fa-2x {
+  font-size: 40px; 
+}
+
+#results-text .text-info { color: #17a2b8 !important; }
+#results-text .text-success { color: #28a745 !important; }
+#results-text .text-warning { color: #ffc107 !important; }
+#results-text .text-danger { color: #dc3545 !important; }
+
+#results-text .font-weight-bold {
+  font-weight: 600 !important;
+}
+
+#results-text .h4 {
+    font-size: 1.5rem;
+}
+
+#results-text .h5 {
+    font-size: 1.25rem;
+}
